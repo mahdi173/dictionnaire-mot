@@ -1,43 +1,76 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("cards-container");
-  let currentIndex = 0;
+import { mots } from "./data.js";
 
-  function generateStars(difficulty) {
-    const maxStars = 5;
-    let starsHTML = '';
-    for (let i = 1; i <= maxStars; i++) {
-      starsHTML += i <= difficulty ? '★' : '☆';
-    }
-    return starsHTML;
+function generateStars(difficulty) {
+  const maxStars = 5;
+  let starsHTML = '';
+  for (let i = 1; i <= maxStars; i++) {
+    starsHTML += i <= difficulty ? '★' : '☆';
   }
+  return starsHTML;
+}
 
-  function showCard(index) {
-    container.innerHTML = ""; // Clear previous card
+function showRandomWord() {
+  const container = document.getElementById("word-container");
+  const randomIndex = Math.floor(Math.random() * mots.length);
+  const mot = mots[randomIndex];
+  console.log(mot);
+  container.innerHTML = `
+    <h2>${mot.Mot} ${generateStars(mot.Difficulté)}</h2>
+    <p class="type">Type : <strong>${mot.Type || 'Non spécifié'}</strong></p>
+    <p class="definition">${mot.Definition}</p>
+    <p class="example">Exemple : "${mot.Exemple}"</p>
+    <button id="get-another-word">J'en veux un autre !</button>
+  `;
 
-    const mot = mots[index];
-    const card = document.createElement("div");
-    card.className = "card";
+  document.getElementById("get-another-word").addEventListener("click", (e) => {
+    e.preventDefault();
+    showRandomWord();
+  });
+}
 
-    card.innerHTML = `
-      <h2>${mot.Mot}</h2>
-      <p class="info"><span>Première lettre :</span> ${mot["Première lettre"]}</p>
-      <p class="info"><span>Définition :</span> ${mot.Définition}</p>
-      <p class="info"><span>Type :</span> ${mot.Type}</p>
-      <p class="info"><span>Exemple :</span> "${mot.Exemple}"</p>
-      <p class="info"><span>Difficulté :</span> ${generateStars(mot.Difficulté)}</p>
-      <a href="#" class="next-btn">Suivant →</a>
+function showWordList() {
+  const listContainer = document.getElementById("word-list");
+  listContainer.innerHTML = mots
+    .map((mot) => `<li><a href="word.html?mot=${encodeURIComponent(mot.Mot)}">${mot.Mot}</a></li>`)
+    .join("");
+}
+
+// Function to display details of a specific word
+function showWordDetails() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const word = urlParams.get("mot");
+
+  const detailsContainer = document.getElementById("word-details");
+  const mot = mots.find((m) => m.Mot === decodeURIComponent(word));
+  console.log(mot);
+
+  if (mot) {
+    detailsContainer.innerHTML = `
+      <h2>${mot.Mot} ${generateStars(mot.Difficulté)}</h2>
+      <p class="type">Type : <strong>${mot.Type || 'Non spécifié'}</strong></p>
+      <p class="definition">${mot.Definition}</p>
+      <p class="example">Exemple : "${mot.Exemple}"</p>
     `;
-
-    container.appendChild(card);
-
-    // Handle click on "Next"
-    card.querySelector(".next-btn").addEventListener("click", (e) => {
-      e.preventDefault();
-      currentIndex = (currentIndex + 1) % mots.length;
-      showCard(currentIndex);
-    });
+  } else {
+    detailsContainer.innerHTML = "<p>Mot non trouvé.</p>";
   }
+}
 
-  // Start showing first card
-  showCard(currentIndex);
+// Event listener for getting another random word
+const nextButton = document.getElementById("get-another-word");
+if (nextButton) {
+  nextButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    showRandomWord();
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.location.pathname.endsWith("index.html")) {
+    showRandomWord();
+  } else if (window.location.pathname.endsWith("list.html")) {
+    showWordList();
+  } else if (window.location.pathname.endsWith("word.html")) {
+    showWordDetails();
+  }
 });

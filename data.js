@@ -1,8 +1,8 @@
-const mots = [
+export const mots = [
   {
     "Première lettre": "B",
     "Mot": "bucolique",
-    "Définition": "Qui évoque la vie champêtre, les plaisirs simples de la campagne.",
+    "Definition": "Qui évoque la vie champêtre, les plaisirs simples de la campagne.",
     "Exemple": "Le décor bucolique de ce hameau semblait hors du temps.",
     "Type": "adjectif",
     "Difficulté": 2
@@ -10,7 +10,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "matutinal",
-    "Définition": "Relatif au matin, qui a lieu le matin.",
+    "Definition": "Relatif au matin, qui a lieu le matin.",
     "Exemple": "Son jogging matutinal le mettait en forme pour la journée.",
     "Type": "adjectif",
     "Difficulté": 2
@@ -18,7 +18,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vagir",
-    "Définition": "Pousser un cri ou un gémissement, en parlant d’un bébé.",
+    "Definition": "Pousser un cri ou un gémissement, en parlant d’un bébé.",
     "Exemple": "Le nouveau-né se mit à vagir dès son arrivée au monde.",
     "Type": "verbe",
     "Difficulté": 2
@@ -26,7 +26,7 @@ const mots = [
   {
     "Première lettre": "A",
     "Mot": "atonie",
-    "Définition": "Manque d’énergie, d’activité ou de vigueur, aussi bien physique que morale.",
+    "Definition": "Manque d’énergie, d’activité ou de vigueur, aussi bien physique que morale.",
     "Exemple": "L’atonie de la pièce rendait la représentation ennuyeuse malgré les efforts des acteurs.",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -34,7 +34,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "capiteux",
-    "Définition": "Qui monte à la tête, en parlant d’un parfum ou d’un vin ; enivrant.",
+    "Definition": "Qui monte à la tête, en parlant d’un parfum ou d’un vin ; enivrant.",
     "Exemple": "Le parfum capiteux de la rose embaumait la pièce entière.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -42,7 +42,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "caviarder",
-    "Définition": "Cacher ou supprimer volontairement une partie d’un texte.",
+    "Definition": "Cacher ou supprimer volontairement une partie d’un texte.",
     "Exemple": "Le rapport avait été caviardé avant publication pour éviter toute polémique.",
     "Type": "verbe",
     "Difficulté": 3
@@ -50,7 +50,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "croquignolet",
-    "Définition": "Mignon, charmant d’une manière un peu ridicule ou précieuse.",
+    "Definition": "Mignon, charmant d’une manière un peu ridicule ou précieuse.",
     "Exemple": "Ce petit bonnet à pompon était croquignolet sur sa tête.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -58,7 +58,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "déférent",
-    "Définition": "Qui manifeste du respect ou de la considération envers autrui.",
+    "Definition": "Qui manifeste du respect ou de la considération envers autrui.",
     "Exemple": "Il était toujours déférent envers ses professeurs.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -66,7 +66,7 @@ const mots = [
   {
     "Première lettre": "E",
     "Mot": "euphonique",
-    "Définition": "Qui a une sonorité agréable à l'oreille.",
+    "Definition": "Qui a une sonorité agréable à l'oreille.",
     "Exemple": "Ce mot est utilisé pour sa qualité euphonique plutôt que pour son sens.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -74,7 +74,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "faribole",
-    "Définition": "Propos ou idée sans valeur, frivole.",
+    "Definition": "Propos ou idée sans valeur, frivole.",
     "Exemple": "Cesse donc de me parler de ces fariboles !",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -82,7 +82,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "flapi",
-    "Définition": "Épuisé, exténué.",
+    "Definition": "Épuisé, exténué.",
     "Exemple": "Après sa journée de marche, il était complètement flapi.",
     "Type": "adjectif familier",
     "Difficulté": 3
@@ -90,7 +90,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "foucade",
-    "Définition": "Caprice, impulsion soudaine et souvent passagère.",
+    "Definition": "Caprice, impulsion soudaine et souvent passagère.",
     "Exemple": "Dans une foucade, il décida de partir à l'autre bout du monde.",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -98,7 +98,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "fourbir",
-    "Définition": "Nettoyer, faire briller avec soin (souvent des armes ou outils).",
+    "Definition": "Nettoyer, faire briller avec soin (souvent des armes ou outils).",
     "Exemple": "Le soldat passait des heures à fourbir son sabre.",
     "Type": "verbe",
     "Difficulté": 3
@@ -106,7 +106,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "foutraque",
-    "Définition": "Désordonné, un peu fou, extravagant.",
+    "Definition": "Désordonné, un peu fou, extravagant.",
     "Exemple": "Ce film foutraque mélangeait science-fiction et comédie romantique.",
     "Type": "adjectif familier",
     "Difficulté": 3
@@ -114,7 +114,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "frondaison",
-    "Définition": "Ensemble des branches et feuilles d’un arbre.",
+    "Definition": "Ensemble des branches et feuilles d’un arbre.",
     "Exemple": "La frondaison épaisse abritait le promeneur du soleil.",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -122,7 +122,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "gourmander",
-    "Définition": "Réprimander quelqu’un avec une certaine douceur, souvent un enfant.",
+    "Definition": "Réprimander quelqu’un avec une certaine douceur, souvent un enfant.",
     "Exemple": "Elle le gourmandait gentiment pour avoir mangé les bonbons en cachette.",
     "Type": "verbe",
     "Difficulté": 3
@@ -130,7 +130,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "gredin",
-    "Définition": "Individu malhonnête, méprisable.",
+    "Definition": "Individu malhonnête, méprisable.",
     "Exemple": "Ce gredin l’avait volée en plein jour sans le moindre scrupule.",
     "Type": "nom masculin",
     "Difficulté": 3
@@ -138,7 +138,7 @@ const mots = [
   {
     "Première lettre": "I",
     "Mot": "indolence",
-    "Définition": "Disposition à éviter l’effort, mollesse.",
+    "Definition": "Disposition à éviter l’effort, mollesse.",
     "Exemple": "Son indolence l’empêchait de terminer le moindre projet.",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -146,7 +146,7 @@ const mots = [
   {
     "Première lettre": "I",
     "Mot": "ineffable",
-    "Définition": "Qui ne peut être exprimé par des mots en raison de son intensité ou de sa nature.",
+    "Definition": "Qui ne peut être exprimé par des mots en raison de son intensité ou de sa nature.",
     "Exemple": "Elle ressentit une joie ineffable en revoyant son enfant.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -154,7 +154,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "malingre",
-    "Définition": "De constitution faible, souvent malade.",
+    "Definition": "De constitution faible, souvent malade.",
     "Exemple": "Ce garçon malingre n’arrivait pas à suivre les autres en sport.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -162,7 +162,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "mordoré",
-    "Définition": "D’une couleur brun doré, cuivrée aux reflets chauds.",
+    "Definition": "D’une couleur brun doré, cuivrée aux reflets chauds.",
     "Exemple": "Le plumage mordoré de l’oiseau brillait au soleil couchant.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -170,7 +170,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "navrementn",
-    "Définition": "Grande tristesse, douleur morale profonde.",
+    "Definition": "Grande tristesse, douleur morale profonde.",
     "Exemple": "Elle exprima son navrement à l’annonce de la nouvelle.",
     "Type": "nom masculin",
     "Difficulté": 3
@@ -178,7 +178,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "nyctalope",
-    "Définition": "Personne ayant une bonne vision nocturne.",
+    "Definition": "Personne ayant une bonne vision nocturne.",
     "Exemple": "Grâce à sa vision nyctalope, il se déplaçait aisément dans l’obscurité.",
     "Type": "nom / adjectif",
     "Difficulté": 3
@@ -186,7 +186,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "prolixe",
-    "Définition": "Qui est trop long, qui s’étend en détails excessifs.",
+    "Definition": "Qui est trop long, qui s’étend en détails excessifs.",
     "Exemple": "Son discours prolixe épuisait l’auditoire avant même le second point.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -194,7 +194,7 @@ const mots = [
   {
     "Première lettre": "R",
     "Mot": "raout",
-    "Définition": "Grande fête, réception somptueuse souvent mondaine.",
+    "Definition": "Grande fête, réception somptueuse souvent mondaine.",
     "Exemple": "La haute société se pressait au raout annuel du palais.",
     "Type": "nom masculin",
     "Difficulté": 3
@@ -202,7 +202,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "soliloquer",
-    "Définition": "Parler tout seul, exprimer ses pensées à voix haute sans interlocuteur.",
+    "Definition": "Parler tout seul, exprimer ses pensées à voix haute sans interlocuteur.",
     "Exemple": "Il se surprit à soliloquer dans le jardin, captivé par ses réflexions.",
     "Type": "verbe",
     "Difficulté": 3
@@ -210,7 +210,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "tancer",
-    "Définition": "Réprimander, admonester vivement.",
+    "Definition": "Réprimander, admonester vivement.",
     "Exemple": "Le professeur le tanca pour son manque de respect.",
     "Type": "verbe",
     "Difficulté": 3
@@ -218,7 +218,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vespéral",
-    "Définition": "Qui se rapporte au soir, relatif à la soirée.",
+    "Definition": "Qui se rapporte au soir, relatif à la soirée.",
     "Exemple": "La brume vespérale enveloppait le lac lors du coucher du soleil.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -226,7 +226,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "veule",
-    "Définition": "Qui manque de force, de courage, lâche, sans énergie.",
+    "Definition": "Qui manque de force, de courage, lâche, sans énergie.",
     "Exemple": "Il restait veule face aux défis, préférant rester dans l’ombre.",
     "Type": "adjectif",
     "Difficulté": 3
@@ -234,7 +234,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "viveur",
-    "Définition": "Personne qui aime la bonne chère, les plaisirs de la vie.",
+    "Definition": "Personne qui aime la bonne chère, les plaisirs de la vie.",
     "Exemple": "Ce viveur connaissait tous les meilleurs restaurants de Paris.",
     "Type": "nom masculin",
     "Difficulté": 3
@@ -242,7 +242,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vétille",
-    "Définition": "Chose insignifiante, détail sans importance.",
+    "Definition": "Chose insignifiante, détail sans importance.",
     "Exemple": "Il se querellait pour des vétilles, ignorant l’essentiel.",
     "Type": "nom féminin",
     "Difficulté": 3
@@ -250,7 +250,7 @@ const mots = [
   {
     "Première lettre": "Z",
     "Mot": "zinzinuler",
-    "Définition": "Chanter comme un oiseau, gazouiller (familier, son d’insecte).",
+    "Definition": "Chanter comme un oiseau, gazouiller (familier, son d’insecte).",
     "Exemple": "Au petit matin, les oiseaux zinzinulaient dans le jardin.",
     "Type": "verbe",
     "Difficulté": 3
@@ -258,7 +258,7 @@ const mots = [
   {
     "Première lettre": "A",
     "Mot": "assuétude",
-    "Définition": "Habitude considérée comme une dépendance, notamment à une drogue ou une activité répétée.",
+    "Definition": "Habitude considérée comme une dépendance, notamment à une drogue ou une activité répétée.",
     "Exemple": "Son assuétude à la caféine l’empêchait de commencer une journée sans boire au moins deux expressos.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -266,7 +266,7 @@ const mots = [
   {
     "Première lettre": "B",
     "Mot": "brimborion",
-    "Définition": "Objet de peu de valeur, babiole, bagatelle.",
+    "Definition": "Objet de peu de valeur, babiole, bagatelle.",
     "Exemple": "Elle avait ramené quelques brimborions du marché, sans utilité réelle.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -274,7 +274,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "chafouin",
-    "Définition": "Qui est sournois, rusé et hypocrite.",
+    "Definition": "Qui est sournois, rusé et hypocrite.",
     "Exemple": "Son sourire chafouin trahissait une intention peu honnête.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -282,7 +282,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "componction",
-    "Définition": "Gravité recueillie, souvent affectée, dans le comportement ou le ton.",
+    "Definition": "Gravité recueillie, souvent affectée, dans le comportement ou le ton.",
     "Exemple": "Il parla avec componction du malheur qui l’avait frappé.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -290,7 +290,7 @@ const mots = [
   {
     "Première lettre": "E",
     "Mot": "embabouiner",
-    "Définition": "Abuser de quelqu’un par des flatteries ou des cajoleries.",
+    "Definition": "Abuser de quelqu’un par des flatteries ou des cajoleries.",
     "Exemple": "Il l’avait embabouinée avec ses mots doux pour obtenir ce qu’il voulait.",
     "Type": "verbe familier",
     "Difficulté": 4
@@ -298,7 +298,7 @@ const mots = [
   {
     "Première lettre": "E",
     "Mot": "embrouillamini",
-    "Définition": "Situation confuse, désordre inextricable.",
+    "Definition": "Situation confuse, désordre inextricable.",
     "Exemple": "L’embrouillamini des dossiers rendait toute prise de décision impossible.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -306,7 +306,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "factotum",
-    "Définition": "Personne à tout faire, souvent dans une maison ou une organisation.",
+    "Definition": "Personne à tout faire, souvent dans une maison ou une organisation.",
     "Exemple": "Il était le factotum du bureau, toujours prêt à rendre service.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -314,7 +314,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "friselis",
-    "Définition": "Léger frémissement, petit bruit doux (vent, eau, feuilles...).",
+    "Definition": "Léger frémissement, petit bruit doux (vent, eau, feuilles...).",
     "Exemple": "Un friselis parcourait la surface du lac sous la brise du soir.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -322,7 +322,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "gaudriole",
-    "Définition": "Plaisanterie un peu osée ou grivoise.",
+    "Definition": "Plaisanterie un peu osée ou grivoise.",
     "Exemple": "Ses histoires de gaudriole ne faisaient rire que lui.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -330,7 +330,7 @@ const mots = [
   {
     "Première lettre": "I",
     "Mot": "inanité",
-    "Définition": "Caractère de ce qui est vide de sens, inutile.",
+    "Definition": "Caractère de ce qui est vide de sens, inutile.",
     "Exemple": "Il méditait sur l’inanité des discours politiques.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -338,7 +338,7 @@ const mots = [
   {
     "Première lettre": "L",
     "Mot": "lanterner",
-    "Définition": "Perdre son temps à des riens, traîner.",
+    "Definition": "Perdre son temps à des riens, traîner.",
     "Exemple": "Il ne fit rien de sa journée, lanterna jusqu’au soir.",
     "Type": "verbe",
     "Difficulté": 4
@@ -346,7 +346,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "margoulin",
-    "Définition": "Commerçant malhonnête ou peu scrupuleux.",
+    "Definition": "Commerçant malhonnête ou peu scrupuleux.",
     "Exemple": "Ce margoulin vendait des produits contrefaits sur les marchés.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -354,7 +354,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "marri",
-    "Définition": "Peiné, affligé (souvent utilisé dans les textes anciens).",
+    "Definition": "Peiné, affligé (souvent utilisé dans les textes anciens).",
     "Exemple": "Il était fort marri d’avoir parlé si durement.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -362,7 +362,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "morigéner",
-    "Définition": "Réprimander quelqu’un en lui donnant une leçon de morale.",
+    "Definition": "Réprimander quelqu’un en lui donnant une leçon de morale.",
     "Exemple": "Il morigéna sévèrement l’élève pour son insolence.",
     "Type": "verbe",
     "Difficulté": 4
@@ -370,7 +370,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "méphistophélique",
-    "Définition": "Qui évoque le diable, sournois et machiavélique.",
+    "Definition": "Qui évoque le diable, sournois et machiavélique.",
     "Exemple": "Son sourire méphistophélique inquiétait même ses proches.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -378,7 +378,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "naupathie",
-    "Définition": "Mal de mer.",
+    "Definition": "Mal de mer.",
     "Exemple": "Il redoutait les croisières à cause de sa naupathie.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -386,7 +386,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "neurasthénie",
-    "Définition": "État de fatigue psychique accompagné d’anxiété et d’irritabilité.",
+    "Definition": "État de fatigue psychique accompagné d’anxiété et d’irritabilité.",
     "Exemple": "La neurasthénie le rendait incapable de se concentrer.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -394,7 +394,7 @@ const mots = [
   {
     "Première lettre": "O",
     "Mot": "oblatif",
-    "Définition": "Qui tend à se dévouer totalement aux autres.",
+    "Definition": "Qui tend à se dévouer totalement aux autres.",
     "Exemple": "Son comportement oblatif le poussait à toujours s’oublier au profit des autres.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -402,7 +402,7 @@ const mots = [
   {
     "Première lettre": "O",
     "Mot": "outrecuidance",
-    "Définition": "Confiance excessive en soi-même, arrogance.",
+    "Definition": "Confiance excessive en soi-même, arrogance.",
     "Exemple": "Son outrecuidance le rendait insupportable en réunion.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -410,7 +410,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "pandiculer",
-    "Définition": "S'étirer en bâillant au réveil ou en signe de fatigue.",
+    "Definition": "S'étirer en bâillant au réveil ou en signe de fatigue.",
     "Exemple": "Il se leva en pandiculant longuement avant de rejoindre la cuisine.",
     "Type": "verbe",
     "Difficulté": 4
@@ -418,7 +418,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "piétaille",
-    "Définition": "Troupe de fantassins, gens du commun (péjoratif).",
+    "Definition": "Troupe de fantassins, gens du commun (péjoratif).",
     "Exemple": "Le seigneur ne prenait jamais la piétaille en compte dans ses décisions.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -426,7 +426,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "primesautier",
-    "Définition": "Spontané, qui agit par impulsion naturelle.",
+    "Definition": "Spontané, qui agit par impulsion naturelle.",
     "Exemple": "Son caractère primesautier le poussait souvent à changer d’avis sans prévenir.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -434,7 +434,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "pétaudière",
-    "Définition": "Endroit chaotique et mal organisé, grand désordre.",
+    "Definition": "Endroit chaotique et mal organisé, grand désordre.",
     "Exemple": "Son bureau était une véritable pétaudière où rien n’était classé.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -442,7 +442,7 @@ const mots = [
   {
     "Première lettre": "R",
     "Mot": "rebuffade",
-    "Définition": "Refus brusque et humiliant, rejet net.",
+    "Definition": "Refus brusque et humiliant, rejet net.",
     "Exemple": "Il essuya une rebuffade lorsqu’il proposa son projet au directeur.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -450,7 +450,7 @@ const mots = [
   {
     "Première lettre": "R",
     "Mot": "replet",
-    "Définition": "Qui est bien en chair, corpulent et correctellement nourri.",
+    "Definition": "Qui est bien en chair, corpulent et correctellement nourri.",
     "Exemple": "Ce cheval replet semblait sûr de lui, prêt pour la course.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -458,7 +458,7 @@ const mots = [
   {
     "Première lettre": "R",
     "Mot": "rodomont",
-    "Définition": "Homme vantard, fanfaron, qui se vante de qualités imaginaires.",
+    "Definition": "Homme vantard, fanfaron, qui se vante de qualités imaginaires.",
     "Exemple": "Ce rodomont racontait qu’il avait affronté des dragons à mains nues.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -466,7 +466,7 @@ const mots = [
   {
     "Première lettre": "R",
     "Mot": "rodomontade",
-    "Définition": "Discours vaniteux et fanfaron, vantardise.",
+    "Definition": "Discours vaniteux et fanfaron, vantardise.",
     "Exemple": "Ses rodomontades lors de la réunion agaçaient ses collègues.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -474,7 +474,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "spécieux",
-    "Définition": "Qui paraît vrai, mais qui est en réalité trompeur ou fallacieux.",
+    "Definition": "Qui paraît vrai, mais qui est en réalité trompeur ou fallacieux.",
     "Exemple": "Sa justification spécieuse convainquait les moins méfiants.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -482,7 +482,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "sycophante",
-    "Définition": "Personne qui flatte servilement pour obtenir des faveurs ou calomnie pour dénoncer.",
+    "Definition": "Personne qui flatte servilement pour obtenir des faveurs ou calomnie pour dénoncer.",
     "Exemple": "Il agissait en sycophante, louant chaque idée du directeur.",
     "Type": "nom masculin",
     "Difficulté": 4
@@ -490,7 +490,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "toquade",
-    "Définition": "Caprice, lubie passagère et souvent extravagante.",
+    "Definition": "Caprice, lubie passagère et souvent extravagante.",
     "Exemple": "Il eut la toquade de porter uniquement des chapeaux de paille.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -498,7 +498,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "torve",
-    "Définition": "Qui a une physionomie menaçante ou malfaisante.",
+    "Definition": "Qui a une physionomie menaçante ou malfaisante.",
     "Exemple": "Son regard torve fit frissonner tous les convives.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -506,7 +506,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "valétudinaire",
-    "Définition": "De santé faible, souvent maladif, qui souffre de divers maux.",
+    "Definition": "De santé faible, souvent maladif, qui souffre de divers maux.",
     "Exemple": "Le vieil homme valétudinaire ne quittait jamais son fauteuil sans aide.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -514,7 +514,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "véléité",
-    "Définition": "Volonté faible, inclination passagère sans passage à l’acte.",
+    "Definition": "Volonté faible, inclination passagère sans passage à l’acte.",
     "Exemple": "Il ressentit une véléité de changer de vie mais resta finalement inerte.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -522,7 +522,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vulnéraire",
-    "Définition": "Qui guérit les plaies, lié à la cicatrisation.",
+    "Definition": "Qui guérit les plaies, lié à la cicatrisation.",
     "Exemple": "On utilisait cette plante vulnéraire pour soigner les coupures.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -530,7 +530,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "véniel",
-    "Définition": "Pardonable, léger (sens moral ; péché véniel : moindre gravité).",
+    "Definition": "Pardonable, léger (sens moral ; péché véniel : moindre gravité).",
     "Exemple": "Ce petit mensonge fut jugé véniel par le confesseur.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -538,7 +538,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vérécondieux",
-    "Définition": "Plein de révérence, empreint de retenue et de pudeur.",
+    "Definition": "Plein de révérence, empreint de retenue et de pudeur.",
     "Exemple": "Son sourire vérécondieux cachait une timidité profonde.",
     "Type": "adjectif",
     "Difficulté": 4
@@ -546,7 +546,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vésanie",
-    "Définition": "Démence, folie passagère ou profonde.",
+    "Definition": "Démence, folie passagère ou profonde.",
     "Exemple": "Pendant un instant de vésanie, il se mit à hurler sans raison.",
     "Type": "nom féminin",
     "Difficulté": 4
@@ -554,7 +554,7 @@ const mots = [
   {
     "Première lettre": "A",
     "Mot": "ataraxie",
-    "Définition": "État de tranquillité parfaite de l’âme, idéal du sage selon les philosophes stoïciens ou épicuriens.",
+    "Definition": "État de tranquillité parfaite de l’âme, idéal du sage selon les philosophes stoïciens ou épicuriens.",
     "Exemple": "Il atteignit une forme d’ataraxie après des années de méditation quotidienne.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -562,7 +562,7 @@ const mots = [
   {
     "Première lettre": "A",
     "Mot": "autolâtrie",
-    "Définition": "Culte excessif de soi-même, forme extrême de narcissisme.",
+    "Definition": "Culte excessif de soi-même, forme extrême de narcissisme.",
     "Exemple": "Son autolâtrie atteignait un tel point qu’il s’était fait tatouer son propre visage.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -570,7 +570,7 @@ const mots = [
   {
     "Première lettre": "B",
     "Mot": "bibliotaphe",
-    "Définition": "Personne qui cache ses livres et ne les prête jamais.",
+    "Definition": "Personne qui cache ses livres et ne les prête jamais.",
     "Exemple": "Bibliotaphe compulsif, il gardait ses livres sous clé, même ceux déjà lus.",
     "Type": "nom",
     "Difficulté": 5
@@ -578,7 +578,7 @@ const mots = [
   {
     "Première lettre": "B",
     "Mot": "bénéolent",
-    "Définition": "Qui a une disposition bienveillante, empreinte de bonté.",
+    "Definition": "Qui a une disposition bienveillante, empreinte de bonté.",
     "Exemple": "Son regard bénéolent apaisait les tensions d’un simple sourire.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -586,7 +586,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "cascatelle",
-    "Définition": "Petite cascade, souvent artificielle, dans un jardin ou un parc.",
+    "Definition": "Petite cascade, souvent artificielle, dans un jardin ou un parc.",
     "Exemple": "Une cascatelle dévalait doucement entre les pierres moussues du jardin.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -594,7 +594,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "cheffer",
-    "Définition": "Exercer une fonction de chef, diriger.",
+    "Definition": "Exercer une fonction de chef, diriger.",
     "Exemple": "Il passait ses journées à cheffer sans vraiment décider quoi que ce soit.",
     "Type": "verbe familier",
     "Difficulté": 5
@@ -602,7 +602,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "chevir",
-    "Définition": "Venir à bout d’une tâche, réussir à faire quelque chose.",
+    "Definition": "Venir à bout d’une tâche, réussir à faire quelque chose.",
     "Exemple": "Il parvint à chevir à ses obligations malgré l’adversité.",
     "Type": "verbe",
     "Difficulté": 5
@@ -610,7 +610,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "concupiscence",
-    "Définition": "Désir sexuel intense ou, par extension, appétit charnel considéré comme un péché.",
+    "Definition": "Désir sexuel intense ou, par extension, appétit charnel considéré comme un péché.",
     "Exemple": "Les sermons condamnaient la concupiscence comme source de damnation.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -618,7 +618,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "contadin",
-    "Définition": "Relatif aux paysans ou à la vie rurale (vieux mot, rare).",
+    "Definition": "Relatif aux paysans ou à la vie rurale (vieux mot, rare).",
     "Exemple": "Son parler contadin révélait ses origines villageoises.",
     "Type": "adjectif / nom",
     "Difficulté": 5
@@ -626,7 +626,7 @@ const mots = [
   {
     "Première lettre": "C",
     "Mot": "controuvé",
-    "Définition": "Inventé de toutes pièces, faux, fabriqué de manière mensongère.",
+    "Definition": "Inventé de toutes pièces, faux, fabriqué de manière mensongère.",
     "Exemple": "Le récit controuvé visait à disculper le coupable.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -634,7 +634,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "disquisition",
-    "Définition": "Développement discursif, souvent long et pédant, sur un sujet.",
+    "Definition": "Développement discursif, souvent long et pédant, sur un sujet.",
     "Exemple": "Il nous gratifia d’une disquisition interminable sur la ponctuation grecque.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -642,7 +642,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "dolosif",
-    "Définition": "Qui implique la ruse, la tromperie ou le dol.",
+    "Definition": "Qui implique la ruse, la tromperie ou le dol.",
     "Exemple": "Son comportement dolosif visait à manipuler le contrat.",
     "Type": "adjectif juridique",
     "Difficulté": 5
@@ -650,7 +650,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "duire",
-    "Définition": "Conduire, guider (ancien français).",
+    "Definition": "Conduire, guider (ancien français).",
     "Exemple": "Il savait bien duire son peuple en des temps troublés.",
     "Type": "verbe",
     "Difficulté": 5
@@ -658,7 +658,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "dulçaquicole",
-    "Définition": "Qui vit en eau douce et en eau saumâtre.",
+    "Definition": "Qui vit en eau douce et en eau saumâtre.",
     "Exemple": "Le crabe dulçaquicole s'adapte à différents milieux aquatiques.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -666,7 +666,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "dyscole",
-    "Définition": "Difficile à vivre, grincheux, d'humeur difficile.",
+    "Definition": "Difficile à vivre, grincheux, d'humeur difficile.",
     "Exemple": "Ce vieil homme dyscole se plaignait sans arrêt du monde moderne.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -674,7 +674,7 @@ const mots = [
   {
     "Première lettre": "D",
     "Mot": "déréliction",
-    "Définition": "Solitude morale, sentiment d’abandon total.",
+    "Definition": "Solitude morale, sentiment d’abandon total.",
     "Exemple": "Elle ressentit une profonde déréliction après la trahison de ses amis.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -682,7 +682,7 @@ const mots = [
   {
     "Première lettre": "É",
     "Mot": "ébaudir",
-    "Définition": "Mettre en joie, réjouir (souvent à la forme pronominale).",
+    "Definition": "Mettre en joie, réjouir (souvent à la forme pronominale).",
     "Exemple": "Elle s’ébaudissait des jeux d’enfants dans le jardin.",
     "Type": "verbe",
     "Difficulté": 5
@@ -690,7 +690,7 @@ const mots = [
   {
     "Première lettre": "É",
     "Mot": "églogue",
-    "Définition": "Petit poème pastoral souvent dialogué.",
+    "Definition": "Petit poème pastoral souvent dialogué.",
     "Exemple": "Il lut une églogue bucolique évoquant les bergers antiques.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -698,7 +698,7 @@ const mots = [
   {
     "Première lettre": "É",
     "Mot": "égrotant",
-    "Définition": "Souvent malade, maladif.",
+    "Definition": "Souvent malade, maladif.",
     "Exemple": "Ce personnage égrotant était toujours alité dans le roman.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -706,7 +706,7 @@ const mots = [
   {
     "Première lettre": "É",
     "Mot": "équinanimité",
-    "Définition": "Égalité d'âme, sérénité face aux événements.",
+    "Definition": "Égalité d'âme, sérénité face aux événements.",
     "Exemple": "Il accueillait les critiques et les louanges avec la même équanimité.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -714,7 +714,7 @@ const mots = [
   {
     "Première lettre": "É",
     "Mot": "évhémérisme",
-    "Définition": "Doctrine selon laquelle les dieux sont des humains divinisés.",
+    "Definition": "Doctrine selon laquelle les dieux sont des humains divinisés.",
     "Exemple": "L’évhémérisme interprète les mythes comme des faits historiques déformés.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -722,7 +722,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "frairie",
-    "Définition": "Fête de village traditionnelle, souvent religieuse.",
+    "Definition": "Fête de village traditionnelle, souvent religieuse.",
     "Exemple": "Chaque été, le village organisait sa frairie en l’honneur du saint patron.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -730,7 +730,7 @@ const mots = [
   {
     "Première lettre": "F",
     "Mot": "férir",
-    "Définition": "Frapper (utilisé dans l'expression 'sans coup férir').",
+    "Definition": "Frapper (utilisé dans l'expression 'sans coup férir').",
     "Exemple": "Le château fut pris sans coup férir.",
     "Type": "verbe (désuet)",
     "Difficulté": 5
@@ -738,7 +738,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "garrulité",
-    "Définition": "Bavardage excessif, tendance à parler beaucoup.",
+    "Definition": "Bavardage excessif, tendance à parler beaucoup.",
     "Exemple": "Sa garrulité rendait les réunions interminables.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -746,7 +746,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "gogaille",
-    "Définition": "Fête où l’on mange et boit avec excès.",
+    "Definition": "Fête où l’on mange et boit avec excès.",
     "Exemple": "Ils se retrouvèrent pour une gogaille bien arrosée entre amis.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -754,7 +754,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "grylle",
-    "Définition": "Figure grotesque ou caricaturale dans l'art médiéval.",
+    "Definition": "Figure grotesque ou caricaturale dans l'art médiéval.",
     "Exemple": "Les marges du manuscrit étaient peuplées de grylles amusants.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -762,7 +762,7 @@ const mots = [
   {
     "Première lettre": "G",
     "Mot": "gyrovague",
-    "Définition": "Moine errant sans monastère fixe, souvent jugé instable.",
+    "Definition": "Moine errant sans monastère fixe, souvent jugé instable.",
     "Exemple": "Le gyrovague allait de cloître en cloître, sans jamais s'établir.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -770,7 +770,7 @@ const mots = [
   {
     "Première lettre": "H",
     "Mot": "harpigner",
-    "Définition": "Saisir avec insistance, tirer à soi ; ou harceler (ancien).",
+    "Definition": "Saisir avec insistance, tirer à soi ; ou harceler (ancien).",
     "Exemple": "Il harpignait le manteau du passant pour attirer son attention.",
     "Type": "verbe",
     "Difficulté": 5
@@ -778,7 +778,7 @@ const mots = [
   {
     "Première lettre": "H",
     "Mot": "hypégiaphobie",
-    "Définition": "Peur panique de la responsabilité.",
+    "Definition": "Peur panique de la responsabilité.",
     "Exemple": "Son hypégiaphobie l’empêchait d’accepter toute promotion.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -786,7 +786,7 @@ const mots = [
   {
     "Première lettre": "H",
     "Mot": "hémérothèque",
-    "Définition": "Collection ou service d’archives de journaux.",
+    "Definition": "Collection ou service d’archives de journaux.",
     "Exemple": "Il consulta la hémérothèque municipale pour ses recherches historiques.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -794,7 +794,7 @@ const mots = [
   {
     "Première lettre": "I",
     "Mot": "impéritie",
-    "Définition": "Incapacité, incompétence dans une fonction.",
+    "Definition": "Incapacité, incompétence dans une fonction.",
     "Exemple": "L’impéritie de ce ministre fut révélée par la crise.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -802,7 +802,7 @@ const mots = [
   {
     "Première lettre": "L",
     "Mot": "lénifier",
-    "Définition": "Adoucir, calmer une douleur ou une tension.",
+    "Definition": "Adoucir, calmer une douleur ou une tension.",
     "Exemple": "Ses paroles ne firent que lénifier une peine qu’il ne pouvait effacer.",
     "Type": "verbe",
     "Difficulté": 5
@@ -810,7 +810,7 @@ const mots = [
   {
     "Première lettre": "L",
     "Mot": "léthifère",
-    "Définition": "Qui cause la mort, mortel.",
+    "Definition": "Qui cause la mort, mortel.",
     "Exemple": "Le poison léthifère fit effet en quelques secondes.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -818,7 +818,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "marmiteux",
-    "Définition": "Misérable, vêtu de guenilles, souvent vieillard ou mendiant.",
+    "Definition": "Misérable, vêtu de guenilles, souvent vieillard ou mendiant.",
     "Exemple": "Un vieux marmiteux mendiait à l’angle de la rue.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -826,7 +826,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "mirliflore",
-    "Définition": "Jeune homme prétentieux et élégant de façon excessive.",
+    "Definition": "Jeune homme prétentieux et élégant de façon excessive.",
     "Exemple": "Ce mirliflore paradait en ville avec son monocle.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -834,7 +834,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "misonéisme",
-    "Définition": "Hostilité ou rejet du changement, des innovations.",
+    "Definition": "Hostilité ou rejet du changement, des innovations.",
     "Exemple": "Son misonéisme freinait toute tentative de réforme.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -842,7 +842,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "morganatique",
-    "Définition": "Se dit d’un mariage contracté entre personnes de rang social inégal, sans droit de succession.",
+    "Definition": "Se dit d’un mariage contracté entre personnes de rang social inégal, sans droit de succession.",
     "Exemple": "Le prince épousa une roturière selon les règles d’une union morganatique.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -850,7 +850,7 @@ const mots = [
   {
     "Première lettre": "M",
     "Mot": "musser",
-    "Définition": "Cacher, dissimuler.",
+    "Definition": "Cacher, dissimuler.",
     "Exemple": "Il musse son trésor dans une cachette secrète.",
     "Type": "verbe",
     "Difficulté": 5
@@ -858,7 +858,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "nervin",
-    "Définition": "Substance qui agit sur les nerfs, calmante ou tonique.",
+    "Definition": "Substance qui agit sur les nerfs, calmante ou tonique.",
     "Exemple": "Ce remède nervin était recommandé contre l’anxiété.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -866,7 +866,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "nitide",
-    "Définition": "Brillant, éclatant, net (rare, littéraire).",
+    "Definition": "Brillant, éclatant, net (rare, littéraire).",
     "Exemple": "Le miroir nitide reflétait son image sans défaut.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -874,7 +874,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "noétique",
-    "Définition": "Relatif à l’intellect, à la pensée pure.",
+    "Definition": "Relatif à l’intellect, à la pensée pure.",
     "Exemple": "Les sciences noétiques s'intéressent aux processus mentaux les plus abstraits.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -882,7 +882,7 @@ const mots = [
   {
     "Première lettre": "N",
     "Mot": "nycthémère",
-    "Définition": "Période de 24 heures comprenant un jour et une nuit.",
+    "Definition": "Période de 24 heures comprenant un jour et une nuit.",
     "Exemple": "Ce traitement doit être administré une fois par nycthémère.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -890,7 +890,7 @@ const mots = [
   {
     "Première lettre": "O",
     "Mot": "oaristys",
-    "Définition": "Entretien amoureux tendre et poétique (mot ancien et littéraire).",
+    "Definition": "Entretien amoureux tendre et poétique (mot ancien et littéraire).",
     "Exemple": "Ils vécurent une oaristys sous les étoiles, à l’écart du monde.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -898,7 +898,7 @@ const mots = [
   {
     "Première lettre": "O",
     "Mot": "orbicole",
-    "Définition": "Qui vit sur la surface du globe terrestre.",
+    "Definition": "Qui vit sur la surface du globe terrestre.",
     "Exemple": "L'espèce orbicole s'adapte à tous les milieux terrestres.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -906,7 +906,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "palinodie",
-    "Définition": "Changement complet d'opinion, souvent accompagné d'une rétractation.",
+    "Definition": "Changement complet d'opinion, souvent accompagné d'une rétractation.",
     "Exemple": "Sa palinodie étonna tous ceux qui l’avaient entendu la veille.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -914,7 +914,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "pendrillon",
-    "Définition": "Partie pendante d’une chaussure ou garniture de vêtement tombant en pans.",
+    "Definition": "Partie pendante d’une chaussure ou garniture de vêtement tombant en pans.",
     "Exemple": "Les pendrillons de sa cape flottaient derrière lui.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -922,7 +922,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "prodigalité",
-    "Définition": "Générosité excessive, tendance à dépenser sans compter.",
+    "Definition": "Générosité excessive, tendance à dépenser sans compter.",
     "Exemple": "Sa prodigalité le conduisit à la ruine en quelques années.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -930,7 +930,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "prolégomènes",
-    "Définition": "Introduction générale à un récit ou un traité, exposé préliminaire.",
+    "Definition": "Introduction générale à un récit ou un traité, exposé préliminaire.",
     "Exemple": "Les prolégomènes de son ouvrage expliquaient la méthodologie employée.",
     "Type": "nom masculin pluriel",
     "Difficulté": 5
@@ -938,7 +938,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "psittacisme",
-    "Définition": "Répétition mécanique de mots sans en comprendre le sens.",
+    "Definition": "Répétition mécanique de mots sans en comprendre le sens.",
     "Exemple": "Son discours sonnait comme du psittacisme, dépourvu de réflexion personnelle.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -946,7 +946,7 @@ const mots = [
   {
     "Première lettre": "P",
     "Mot": "péronnelle",
-    "Définition": "Femme frivole et sotte, obsédée par les apparences.",
+    "Definition": "Femme frivole et sotte, obsédée par les apparences.",
     "Exemple": "Cette péronnelle passait son temps devant le miroir à ajuster son chapeau.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -954,7 +954,7 @@ const mots = [
   {
     "Première lettre": "Q",
     "Mot": "quinaud",
-    "Définition": "Personne ridicule ou nulle, simple d’esprit.",
+    "Definition": "Personne ridicule ou nulle, simple d’esprit.",
     "Exemple": "Il se comportait comme un quinaud lors de la réunion, perdant son sang-froid.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -962,7 +962,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "salvifique",
-    "Définition": "Qui procure le salut, qui délivre du mal.",
+    "Definition": "Qui procure le salut, qui délivre du mal.",
     "Exemple": "Sa parole salvifique apportait espoir aux croyants endoloris.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -970,7 +970,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "soliveau",
-    "Définition": "Palissade faite avec des planches ou des madriers (rare).",
+    "Definition": "Palissade faite avec des planches ou des madriers (rare).",
     "Exemple": "Le vieux soliveau protégeait le potager des animaux errants.",
     "Type": "nom masculin",
     "Difficulté": 5
@@ -978,7 +978,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "stipendié",
-    "Définition": "Qui reçoit un salaire ou un traitement d’argent du pouvoir (péjoratif).",
+    "Definition": "Qui reçoit un salaire ou un traitement d’argent du pouvoir (péjoratif).",
     "Exemple": "Un journaliste stipendié ne peut pas prétendre à l’impartialité.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -986,7 +986,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "syzygie",
-    "Définition": "Alignement de trois corps célestes; situation d’une conjonction ou d’une opposition.",
+    "Definition": "Alignement de trois corps célestes; situation d’une conjonction ou d’une opposition.",
     "Exemple": "La syzygie de la Terre, de la Lune et du Soleil crée une éclipse totale.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -994,7 +994,7 @@ const mots = [
   {
     "Première lettre": "S",
     "Mot": "sémiliant",
-    "Définition": "Qui semble autrement qu’il n’est, qui feint.",
+    "Definition": "Qui semble autrement qu’il n’est, qui feint.",
     "Exemple": "Son visage sémiliant masquait un réel désespoir.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -1002,7 +1002,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "thébaïde",
-    "Définition": "Lieu retiré, désert; solitude paisible (référence à la région de Thèbes).",
+    "Definition": "Lieu retiré, désert; solitude paisible (référence à la région de Thèbes).",
     "Exemple": "Il trouva près de la rivière une thébaïde où méditer en paix.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -1010,7 +1010,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "turpide",
-    "Définition": "Qui est d’une laideur morale, repoussante, honteuse.",
+    "Definition": "Qui est d’une laideur morale, repoussante, honteuse.",
     "Exemple": "Son comportement turpide lui valut d’être ostracisé.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -1018,7 +1018,7 @@ const mots = [
   {
     "Première lettre": "T",
     "Mot": "turpitude",
-    "Définition": "Laideur morale profonde, abjection.",
+    "Definition": "Laideur morale profonde, abjection.",
     "Exemple": "La turpitude de ses actes choquait la communauté.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -1026,7 +1026,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "veglione",
-    "Définition": "Grande fête ou soirée dansante, surtout en Italie (mot italien emprunté).",
+    "Definition": "Grande fête ou soirée dansante, surtout en Italie (mot italien emprunté).",
     "Exemple": "Ils assistèrent à une veglione dans la villa surplombant Venise.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -1034,7 +1034,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vitupération",
-    "Définition": "Critique violente, invective, reproche acerbe.",
+    "Definition": "Critique violente, invective, reproche acerbe.",
     "Exemple": "Les vitupérations pleuvaient sur le gouvernement lors du discours.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -1042,7 +1042,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vultueux",
-    "Définition": "Qui exprime la culpabilité, empreint d’accusation ou de reproche (rare).",
+    "Definition": "Qui exprime la culpabilité, empreint d’accusation ou de reproche (rare).",
     "Exemple": "Son regard vultueux trahissait une rancune ancienne.",
     "Type": "adjectif",
     "Difficulté": 5
@@ -1050,7 +1050,7 @@ const mots = [
   {
     "Première lettre": "V",
     "Mot": "vénusté",
-    "Définition": "Beauté, charme remarquable (rare, littéraire).",
+    "Definition": "Beauté, charme remarquable (rare, littéraire).",
     "Exemple": "La vénusté de ce visage avait frappé tous les peintres de'poque.",
     "Type": "nom féminin",
     "Difficulté": 5
@@ -1058,9 +1058,9 @@ const mots = [
   {
     "Première lettre": "Z",
     "Mot": "zinzolin",
-    "Définition": "Couleur rouge violacé, tirant sur le mauve (rare, vieilli).",
+    "Definition": "Couleur rouge violacé, tirant sur le mauve (rare, vieilli).",
     "Exemple": "Le ciel prenait une teinte zinzolin juste avant l’aube.",
     "Type": "nom masculin",
     "Difficulté": 5
   }
-]
+];
