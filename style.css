@@ -57,3 +57,16 @@ h1 {
 .star.filled {
   color: gold;
 }
+
+.next-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.next-btn:hover {
+  color: #1d4ed8;
+}
