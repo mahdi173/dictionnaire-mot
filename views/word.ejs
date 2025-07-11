@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title><%= mot.Mot %> - Monèse</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html">Monèse</a>
+      <a href="/list.html">Liste</a>
+      <a href="/index.html">Aléatoire</a>
+      <a href="/favorites.html">Mes favoris</a>
+    </nav>
+  </header>
+
+  <main id="word-details">
+    <h2><%= mot.Mot %> <%= stars %></h2>
+    <p class="type">Type : <strong><%= mot.Type || 'Non spécifié' %></strong></p>
+    <p class="definition"><%= mot.Definition %></p>
+    <p class="example">Exemple : "<%= mot.Exemple %>"</p>
+  </main>
+</body>
+</html>

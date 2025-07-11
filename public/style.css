@@ -101,3 +101,35 @@ main {
   color: #000; /* Gray text */
   margin-bottom: 1rem;
 }
+
+#word-container .btn-favorite {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#word-container .btn-favorite:hover {
+  background-color: #ff3333;
+}
+
+#top-favorites {
+  list-style: none;
+  padding-left: 0;
+}
+
+#top-favorites li {
+  background: #f9f9f9;
+  border-left: 4px solid #ff6666;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#top-favorites strong {
+  color: #d8505c;
+}
