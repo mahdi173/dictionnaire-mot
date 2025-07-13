@@ -1,12 +1,12 @@
 const express = require('express');
 const path = require('path');
-const { mots } = require('./public/mots.js');
+const { mots } = require('./docs/mots.js');
 
 const app = express();
 const PORT = 3000;
 
 // Serve static files from "public"
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'docs')));
 
 // Set up EJS (optional for now)
 app.set('view engine', 'ejs');
@@ -29,11 +29,6 @@ app.get('/dictionnaire-mot/:mot.html', (req, res) => {
   res.render('word', { mot, stars: generateStars(mot.Difficulté) });
 });
 
-// Redirect root to index.html
-app.get('/', (req, res) => {
-    console.log("hello");
-  res.redirect('/dictionnaire-mot/atonie.html');
-});
 
 // Start server
 app.listen(PORT, () => {
