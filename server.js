@@ -29,6 +29,9 @@ app.get('/dictionnaire-mot/:mot.html', (req, res) => {
   res.render('word', { mot, stars: generateStars(mot.Difficulté) });
 });
 
+app.get('/dictionnaire-mot/', (req, res) => {
+    res.redirect('/dictionnaire-mot/index.html');
+});
 
 // Start server
 app.listen(PORT, () => {
